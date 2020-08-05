@@ -1,0 +1,14 @@
+{
+    "configs": {
+        "alacritty" : {
+            "name": "Alacritty config",
+            "local": "alacritty.yml",
+            "destination": "~/.config/alacritty/"
+        },
+        "example" : {
+            "name": "Config for xxx",
+            "local": "sample.cfg",
+            "destination": "/path/of/example"
+        }    
+    }
+}
