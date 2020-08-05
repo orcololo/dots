@@ -1,14 +1,19 @@
 {
-    "configs": {
-        "alacritty" : {
-            "name": "Alacritty config",
-            "local": "alacritty.yml",
-            "destination": "~/.config/alacritty/"
-        },
-        "example" : {
-            "name": "Config for xxx",
-            "local": "sample.cfg",
-            "destination": "/path/of/example"
-        }    
+  "configs": {
+    "alacritty": {
+      "name": "Alacritty config",
+      "local": ["configs/alacritty/alacritty.yml"],
+      "destination": "~/.config/alacritty/"
+    },
+    "prettier": {
+      "name": "Prettier + eslint config",
+      "local": ["configs/prettier/.eslintrc", "configs/prettier/.prettierrc"],
+      "destination": "~"
+    },
+    "example": {
+      "name": "Config for xxx",
+      "local": "sample.cfg",
+      "destination": "/path/of/example"
     }
+  }
 }

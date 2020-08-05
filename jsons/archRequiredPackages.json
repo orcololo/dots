@@ -1,8 +1,8 @@
 {
     "aur": {
-
+        "items": ["visual-studio-code-bin", "spaceship-prompt-git"]
     },
-    "repository": {
-        
+    "repository":{
+        "items": ["alacritty", "firefox", "yarn","nodejs", "npm"]
     }
 }
