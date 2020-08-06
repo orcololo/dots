@@ -22,3 +22,4 @@ def copyToDir(base, destination):
 
 # É possível veririficar se o arquivo já existe no sistema de arquivos
 # , se existir, é possível pedir uma confirmação para tal ação.
+1
